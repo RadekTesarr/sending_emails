@@ -2,7 +2,7 @@ import smtplib
 
 my_email = "email@gmail.com"
 password = "password"
-message = "Hello world!"
+message = "Subject: Important message\n\nHello world!"
 received_email = "email@gmail.com"
 
 with smtplib.SMTP(host="smtp.gmail.com", port=587) as connection:
